@@ -1,0 +1,164 @@
+<html>
+    <head> 
+        <script src=
+        "https://code.jquery.com/jquery-1.12.4.min.js">
+            </script>
+        <link rel="stylesheet" type ="text/css" href="../css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Lato" rel='stylesheet'>
+        <title> My Website</title>
+        <body> 
+            <!-- Welcome to my code!-->
+            <h1 id="welcome"> 
+                Welcome to my first HTML and CSS Website
+            </h1>
+            <hr>
+                <div id ="ryan-picture"> </div>
+                <hr>
+                <h2> Table of Contents </h2> 
+                <a href="#introduction"> Introduction</a><br>
+                <a href="#socials"> Socials</a><br>
+                <a href="#friends"> Friends</a><br>
+                <a href="#contact"> Contact</a><br>
+                <hr>
+            <h2 id ="introduction"> Introduction </h2>
+                <p id="interest">
+                My name is Ryan Ma, I am a Grade 11 STEM Student at UHS. <br> This is my first endeavour on making a website here are some things about me:<br> 
+                <ul><li>I love coding</li>
+                    <li>I love robotics</li>
+                    <li>I love learning new things</li>
+                    <li>I love sports</li></ul>   
+                </p> 
+                <hr>
+                <h2 id="socials">
+                    Socials:
+                </h2>
+                    <p>
+                    <a target ="_blank" href ="https://www.linkedin.com/in/ryan-ma-253824254/"> LinkedIn </a><br>
+                    <a target ="_blank" href ="https://www.youtube.com/channel/UCDd1SGtn9_0FEIwxDsqU7Cw"> Youtube</a><br>
+                    <a target ="_blank" href ="https://www.instagram.com/ryanm_ma/"> Instagram</a><br>
+                    <a target ="_blank" href ="https://www.twitch.tv/seolynlol"> Twitch</a>
+                </p>
+                <hr>
+                <h2 id = "friends"> My Friends and Me</h2>
+                <table>
+                    <thead> 
+                        <tr>
+                            <th> Friends</th>
+                            <th> Affiliation</th>
+                            <th> Fun Facts</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td> Ryan Ma</td>
+                            <td> Myself</td>
+                            <td> Likes HTML and CSS</td>
+                        </tr>
+                        <tr>
+                            <td> Jeremy Su</td>
+                            <td> Prodigy Friend</td>
+                            <td> Likes grandmas</td>
+                        </tr>
+                        <tr>
+                            <td> Darren Liu</td>
+                            <td> Coding Friend</td>
+                            <td> Likes math religiously</td>
+                        </tr>
+                        <tr>
+                            <td> Alan Chen</td>
+                            <td> Gay Friend</td>
+                            <td> Likes dick and balls</td>
+                        </tr>
+                        <tr>
+                            <td> Tanay Kumar</td>
+                            <td> Racist Friend</td>
+                            <td> Will say NWord on command</td>
+                        </tr>
+                        <tr>
+                            <td> Frank Chen</td>
+                            <td> Tall Friend</td>
+                            <td> Math & Business Double Major</td>
+                        </tr>
+                        <tr>
+                            <td> Daniel Tsay</td>
+                            <td> Day One Friend</td>
+                            <td> Loves TIJ-1O1 </td>
+                        </tr>
+                        <tr>
+                            <td> William Zhang </td>
+                            <td> Wiz Friend</td>
+                            <td> Everyone is gay for him</td>
+                        </tr>
+                        <tr>
+                            <td> Anna Wei</td>
+                            <td> Goat Friend</td>
+                            <td> She's the best</td>
+                        </tr>
+                        <tr>
+                            <td> Jeanette Li</td>
+                            <td> Piano Friend</td>
+                            <td> Should've been AU Piano</td>
+                        </tr>
+                        <tr>
+                            <td> Samuel Zhu </td>
+                            <td> Crackhead Friend </td>
+                            <td> Is on crack 24/7 </td>
+                        </tr>
+                        <tr>
+                            <td> Doris Lam</td>
+                            <td> Transgender friend</td>
+                            <td> Male jeremy su  </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <br>
+                <hr>
+                    <h2 id ="contact">Contact Me</h2>
+                    <form method = "get">
+                        <label for="email">Email: </label>
+                        <input id="email" type="email" placeholder="ryanma@gmail.com"> 
+                        <input type = "submit"/><br>
+                    <label for ="male"> Gender/Sex <br> Male: </label>
+                    <input type ="radio" name ="gender" id ="male" value ="male"><br>
+
+                    <label for ="female"> Female: </label>
+                    <input type ="radio" name ="gender" id ="female" value ="female"><br> 
+                    <div class ="formen">
+                        <textarea id = "comment" rows ="10" cols ="30" placeholder ="Feel free to leave a comment regarding my website!"></textarea>
+                        <input type = "submit"/>
+                    </div>
+
+                    <div class ="forfemale">
+                    <label for ="age"> Age: </label>
+                    <input type="number" name="age"
+                    id="age" min ="6" max ="18"
+                    step="1" placeholder="6-18">
+                    <br>
+
+                    <label for="race"> Ethnicity:</label>
+                    <select name ="race" id="race">
+                        <option value="Chinese">Chinese</option>
+                        <option value="Korean">Korean</option>
+                        <option value="Japanese">Japanese</option>
+                        <option value="White">White</option>
+                        <option value="Black">Black</option>
+                        <option value="Latino">Latino</option>
+                    </select><br>
+                    
+                    <label for ="phone"> Number: </label>
+                        <input id="phone" name="phone" type="tel"
+                        placeholder="800-668-6868"
+                        pattern="[0-9]{3}[0-9]{3}[0-9]{4}"> <br> 
+
+                    <label for ="insta"> Insta: </label>
+                    <input id="insta" name="insta" type ="text"
+                    placeholder="@katieli_2014">
+                    <input type="submit"/><br>
+                    </div>
+                    </script>
+                    </form>
+                    <script src="Script.js">
+                    </script>
+        </body>
+    </head>
+</html>
